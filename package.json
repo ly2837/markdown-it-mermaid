@@ -1,5 +1,5 @@
 {
-  "name": "markdown-it-mermaid",
+  "name": "@ly2837/markdown-it-mermaid",
   "version": "0.2.5",
   "description": "Mermaid plugin for markdown-it.",
   "main": "dist/index.js",
