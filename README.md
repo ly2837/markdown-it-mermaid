@@ -74,3 +74,11 @@ yarn release && npm publish
 ## Todo
 
 `gantt-axis-format` should support large date ranges
+
+## The difference from original
+
+- translate `=>` to function
+
+    because my nuxt app report `TypeError: plugin.apply is not a function`
+
+<!-- - update mermaid to 8.4.5 -->
