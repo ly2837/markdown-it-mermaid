@@ -9,7 +9,7 @@ const mermaidChart = (code) => {
   }
 }
 
-const MermaidPlugin = (md) => {
+module.exports = function (md) {
   md.mermaid = mermaid
   mermaid.loadPreferences = (preferenceStore) => {
     let mermaidTheme = preferenceStore.get('mermaid-theme')
@@ -48,5 +48,3 @@ const MermaidPlugin = (md) => {
     return temp(tokens, idx, options, env, slf)
   }
 }
-
-export default MermaidPlugin
